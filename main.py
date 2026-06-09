@@ -4,7 +4,7 @@ from tkinter import ttk
 def calculate(*args):
     try:
         value = float(feet.get())
-        meters.set(round(0.3048 * value, 4))
+        meters.set(round(0.3048 * value, 5))
     except ValueError:
         pass
 
