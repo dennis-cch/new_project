@@ -31,7 +31,7 @@ root.columnconfigure(0, weight=1)
 root.rowconfigure(0, weight=1)
 mainframe.columnconfigure(2, weight=1)
 for child in mainframe.winfo_children(): 
-    child.grid_configure(padx=5, pady=6)
+    child.grid_configure(padx=5, pady=5)
 
 feet_entry.focus()
 root.bind("<Return>", calculate)
